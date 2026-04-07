@@ -23,6 +23,7 @@
 ---
 
 ### Задание 1
+<img width="613" height="554" alt="image" src="https://github.com/user-attachments/assets/6bba5c9a-82a7-4542-a2db-6e71a0d07297" />
 
 `Приведите ответ в свободной форме........`
 

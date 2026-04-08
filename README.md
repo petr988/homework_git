@@ -47,6 +47,22 @@ ok  	github.com/netology-code/sdvps-materials	(cached)
 Перепишите сборку из задания 1 на declarative в виде кода.
 В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
 
+
+ Ответ: 
+ Step 8/8 : CMD ["/app"]
+ ---> Using cache
+ ---> 490cf186d8b0
+Successfully built 490cf186d8b0
+Successfully tagged ubuntu-bionic:8082/hello-world:v3
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] End of Pipeline
+Finished: SUCCESS
+
+
+
 Задание 3
 Что нужно сделать:
 

@@ -36,7 +36,7 @@
 Прикрепите в файл README.md скриншот авторизации в админке.
 Приложите в файл README.md текст использованных команд в GitHub.
 
-<img width="1495" height="868" alt="image" src="https://github.com/user-attachments/assets/5fcbe1e6-96ac-4463-b782-fec1d2f401bf" />
+<img width="1495" height="868" alt="image" src="https://github.com/user-attachments/assets/5fcbe1e6-96ac-4463-b782-fec1d2f401bf" />  
 
 
 

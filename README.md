@@ -92,26 +92,21 @@
 
 
 
+dpkg -i zabbix-release_latest_7.0+ubuntu24.04_all.deb  
+   56  apt update   
+   57  apt install zabbix-agent  
+   58  systemctl status zabbix-agent.servuce  
+   59  systemctl status zabbix-agent.service  
+   60  find / -name zabbix_agentd.conf  
+   61  nano /etc/zabbix/zabbix_agentd.conf  
+   62  sytemctl restart zabbix_agent.service  
+   63  systemctl restart zabbix_agent.service  
+   64  systemctl restart zabbix-agent.service  
+   65  systemctl status zabbix-agent.service  
 
-Задание 3
-Что нужно сделать:
 
-Установите на машину Nexus.
-Создайте raw-hosted репозиторий.
-Измените pipeline так, чтобы вместо Docker-образа собирался бинарный go-файл. Команду можно скопировать из Dockerfile.
-Загрузите файл в репозиторий с помощью jenkins.
-В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
 
-### Задание 4
 
-`Приведите ответ в свободной форме........`
-
-1. `Заполните здесь этапы выполнения, если требуется ....`
-2. `Заполните здесь этапы выполнения, если требуется ....`
-3. `Заполните здесь этапы выполнения, если требуется ....`
-4. `Заполните здесь этапы выполнения, если требуется ....`
-5. `Заполните здесь этапы выполнения, если требуется ....`
-6. 
 
 ```
 Поле для вставки кода...

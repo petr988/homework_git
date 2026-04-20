@@ -106,9 +106,9 @@ dpkg -i zabbix-release_latest_7.0+ubuntu24.04_all.deb
 
 
 
-     <img width="1199" height="858" alt="image" src="https://github.com/user-attachments/assets/306b3b3b-8e7b-4d26-ab3d-66770c66785f" />  
-     <img width="1320" height="866" alt="image" src="https://github.com/user-attachments/assets/cd5e1c16-6402-4d05-a5b6-b91b1c16a41b" />  
-     <img width="1554" height="649" alt="image" src="https://github.com/user-attachments/assets/1a26c231-4f89-4793-9583-b96276efda3e" />
+   <img width="1199" height="858" alt="image" src="https://github.com/user-attachments/assets/306b3b3b-8e7b-4d26-ab3d-66770c66785f" />  
+   <img width="1320" height="866" alt="image" src="https://github.com/user-attachments/assets/cd5e1c16-6402-4d05-a5b6-b91b1c16a41b" />  
+  <img width="1554" height="649" alt="image" src="https://github.com/user-attachments/assets/1a26c231-4f89-4793-9583-b96276efda3e" />
 
 
 

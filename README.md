@@ -41,7 +41,38 @@
 <img width="1495" height="868" alt="image" src="https://github.com/user-attachments/assets/5fcbe1e6-96ac-4463-b782-fec1d2f401bf" />      
 
   
-  
+  apt install postgres  
+    4  apt install postgressql  
+    5  apt install postgresql  
+    
+    6  wget https://repo.zabbix.com/zabbix/7.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest_7.0+ubuntu24.04_all.deb
+    7  ls
+    8  dkpg -i zabbix-release_latest_7.0+ubuntu24.04_all.deb
+    9  dpkg -i zabbix-release_latest_7.0+ubuntu24.04_all.deb
+   10  ls -la /etc/apt/sources.list.d/  
+   11  cat /etc/apt/sources.list.d/zabbix.list   
+   12  apt update  
+   13  apt install zabbix-server-pgsql zabbix-frontend-php php8.3-pgsql zabbix-apache-conf zabbix-sql-scripts  
+   14  systemctl status zabbix-server.service   
+   15  su - postgres -c 'psql' --command "CREATE USER zabbix WITH PASSWORD '\'123456789\'';"'    
+   16  u -  
+   17  su -  
+   18  exit  
+   19  su petr  
+   20  su - postgres -c "psql -c \"CREATE USER zabbix WITH PASSWORD '123456789';\""  
+   21  sudo -u postgres createdb -O zabbix zabbix   
+   22  zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix   
+   23  fine / -name zabbix_agentd  
+   24  find / -name zabbix_agentd  
+   25  sudo find / -name zabbix_agentd  
+   26  cd /etc  
+   27  cd /zabbix  
+   28  ll  
+   29  cd zabbix  
+   30  ll  
+   31  nano zabbix_server.conf   
+   32  systamctl restart zabbix-server appache2  
+
   
 
 Задание 2

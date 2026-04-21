@@ -40,11 +40,10 @@
 
 <img width="1495" height="868" alt="image" src="https://github.com/user-attachments/assets/5fcbe1e6-96ac-4463-b782-fec1d2f401bf" />      
 
-  
+'''Bash  
   apt install postgres  
     4  apt install postgressql  
     5  apt install postgresql  
-    
     6  wget https://repo.zabbix.com/zabbix/7.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest_7.0+ubuntu24.04_all.deb
     7  ls
     8  dkpg -i zabbix-release_latest_7.0+ubuntu24.04_all.deb

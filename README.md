@@ -24,7 +24,7 @@
 
 ---
 
-Задание 1
+## Задание 1
 Что нужно сделать:
 
 Установите Zabbix Server с веб-интерфейсом.
@@ -40,7 +40,7 @@
 
 <img width="1495" height="868" alt="image" src="https://github.com/user-attachments/assets/5fcbe1e6-96ac-4463-b782-fec1d2f401bf" />      
 
-'''Bash  
+``` Bash  
   apt install postgres  
     4  apt install postgressql  
     5  apt install postgresql  
@@ -71,10 +71,10 @@
    30  ll  
    31  nano zabbix_server.conf   
    32  systamctl restart zabbix-server appache2  
-
+```
   
 
-Задание 2
+## Задание 2
 Установите Zabbix Agent на два хоста.
 
 Процесс выполнения
@@ -89,7 +89,7 @@
 Приложите в файл README.md скриншот раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные.
 Приложите в файл README.md текст использованных команд в GitHub
 
-
+``` Bash
 
 dpkg -i zabbix-release_latest_7.0+ubuntu24.04_all.deb  
    56  apt update   
@@ -102,7 +102,7 @@ dpkg -i zabbix-release_latest_7.0+ubuntu24.04_all.deb
    63  systemctl restart zabbix_agent.service  
    64  systemctl restart zabbix-agent.service  
    65  systemctl status zabbix-agent.service  
-
+```
 
 
    <img width="1199" height="858" alt="image" src="https://github.com/user-attachments/assets/306b3b3b-8e7b-4d26-ab3d-66770c66785f" />  
@@ -113,15 +113,3 @@ dpkg -i zabbix-release_latest_7.0+ubuntu24.04_all.deb
 
 
 
-
-
-```
-Поле для вставки кода...
-....
-....
-....
-....
-```
-
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота](ссылка на скриншот)`
